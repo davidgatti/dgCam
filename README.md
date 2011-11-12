@@ -9,6 +9,12 @@ For example:
 1. HTC devices would crop the photos. So if your device says that you have a a camera with a 5Mpx sensor, in reality the camera will produce a 4,4Mpx photo.
 
 This is why i created the custom camera app. While developing i had to reinvent the wheal many times for different stuff since Google dose not provide basic functionality that Apple dose in its iOS. A good example is the accelerometer. In both system you can get the raw data, but Apple gives you something more. You can get the orientation of the device if this is all what you need. 
+Dowload the dgCam from the Android Market
+-----------------------------------------
+
+If you would like to see how this app looks and works, you can dowload it from
+the Android Market at this URL:
+https://market.android.com/details?id=pl.gatti.dgcam
 
 What can you find hear
 --------------
