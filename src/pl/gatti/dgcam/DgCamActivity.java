@@ -75,7 +75,6 @@ public class DgCamActivity extends Activity implements SensorEventListener {
 
 		// Add a listener to the Capture button
 		ibCapture.setOnClickListener(new View.OnClickListener() {
-			@Override
 			public void onClick(View v) {
 				mCamera.takePicture(null, null, mPicture);
 			}
@@ -83,7 +82,6 @@ public class DgCamActivity extends Activity implements SensorEventListener {
 
 		// Add a listener to the Retake button
 		ibRetake.setOnClickListener(new View.OnClickListener() {
-			@Override
 			public void onClick(View v) {
 				// Deleting the image from the SD card/
 				File discardedPhoto = new File(sdRoot, dir + fileName);
@@ -101,7 +99,6 @@ public class DgCamActivity extends Activity implements SensorEventListener {
 
 		// Add a listener to the Use button
 		ibUse.setOnClickListener(new View.OnClickListener() {
-			@Override
 			public void onClick(View v) {
 				// Everything is saved so we can quit the app.
 				finish();
@@ -222,7 +219,6 @@ public class DgCamActivity extends Activity implements SensorEventListener {
 
 	private PictureCallback mPicture = new PictureCallback() {
 
-		@Override
 		public void onPictureTaken(byte[] data, Camera camera) {
 
 			// Replacing the button after a photho was taken.
@@ -268,7 +264,6 @@ public class DgCamActivity extends Activity implements SensorEventListener {
 	 * Putting in place a listener so we can get the sensor data only when
 	 * something changes.
 	 */
-	@Override
 	public void onSensorChanged(SensorEvent event) {
 		synchronized (this) {
 			if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
@@ -343,7 +338,6 @@ public class DgCamActivity extends Activity implements SensorEventListener {
 	/**
 	 * STUFF THAT WE DON'T NEED BUT MUST BE HEAR FOR THE COMPILER TO BE HAPPY.
 	 */
-	@Override
 	public void onAccuracyChanged(Sensor sensor, int accuracy) {
 	}
 }

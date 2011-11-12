@@ -26,7 +26,6 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
 		mHolder.setFixedSize(100, 100);
 	}
 
-	@Override
 	public void surfaceCreated(SurfaceHolder holder) {
 		// The Surface has been created, now tell the camera where to draw the
 		// preview.
@@ -39,7 +38,6 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
 
 	}
 
-	@Override
 	public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
 		// If your preview can change or rotate, take care of those events here.
 		// Make sure to stop the preview before resizing or reformatting it.
@@ -68,7 +66,6 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
 		}
 	}
 
-	@Override
 	public void surfaceDestroyed(SurfaceHolder holder) {
 		// empty. Take care of releasing the Camera preview in your activity.
 	}
