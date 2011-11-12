@@ -17,7 +17,8 @@ What can you find hear
 1. How to apply custom settings.
 1. How to add Exif data to a photo.
 1. How to calculate the orientation of the device based on Earth gravity.
-1. How to rotate a image based on the orientation of the device.
+1. How to rotate a image on a buton based on the orientation of the device.
+1. How to create a layout where you can put elements on top of each other.
 
 Many thx to:
 -------
