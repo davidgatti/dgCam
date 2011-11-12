@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DgCamActivity!</string>
+    <string name="app_name">DgCam</string>
+    <string name="questionmark">\?!</string>
+    <string name="explenation">Sorry, but i could not find a camera on your device.</string>
+    <string name="nosdcard">There is no SD card</string>
+
+</resources>

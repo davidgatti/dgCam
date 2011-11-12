@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:id="@+id/linearLayout2" >
+
+    <corners android:radius="4px" />
+
+    <size
+        android:height="50px"
+        android:width="50px" />
+
+    <solid android:color="#A69400" />
+
+</shape>
