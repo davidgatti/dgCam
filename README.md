@@ -17,7 +17,7 @@ If you would like to see how this app looks and works, you can dowload it from
 the Android Market at this URL:
 https://market.android.com/details?id=pl.gatti.dgcam
 
-What can you find hear
+What can you find here
 --------------
 
 1. How to create a custom camera.
