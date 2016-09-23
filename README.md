@@ -1,5 +1,6 @@
 dgCam
 =============
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/davidgatti/dgCam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 dgCam is a small custom camera app for Android that i had to do for one of the application that we develop at work. We needed more control over the generated photos. Sadly since Android is so fragmented and there is no standards in anything, we could not rely on the built in camera apps. Every manufacture of Android devices have a different approach to the camera and the worst part is: there is no guarantee that if you send your custom settings to the camera - the software will take them in consideration.
 
@@ -16,7 +17,7 @@ If you would like to see how this app looks and works, you can dowload it from
 the Android Market at this URL:
 https://market.android.com/details?id=pl.gatti.dgcam
 
-What can you find hear
+What can you find here
 --------------
 
 1. How to create a custom camera.
