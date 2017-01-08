@@ -1,6 +1,5 @@
 dgCam
 =============
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/davidgatti/dgCam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 dgCam is a small custom camera app for Android that i had to do for one of the application that we develop at work. We needed more control over the generated photos. Sadly since Android is so fragmented and there is no standards in anything, we could not rely on the built in camera apps. Every manufacture of Android devices have a different approach to the camera and the worst part is: there is no guarantee that if you send your custom settings to the camera - the software will take them in consideration.
 
@@ -40,14 +39,6 @@ Contribution
 - Add better comments
 - Write a better README file - sorry, english is not my main language.
 
-License
--------
+# Other Projects
 
-Copyright © 2011 Dawid Gatti.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
+If this article/project is something you enjoy, please consider giving it a 🌟. Also check out my [GitHub account](https://github.com/davidgatti), where I have other articles and apps that you might find interesting.
